@@ -14,6 +14,9 @@
 		0CE8D5632CBC2F6B00717229 /* DoublePendulumSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8D5622CBC2F6B00717229 /* DoublePendulumSimulatorTests.swift */; };
 		0CE8D56D2CBC2F6B00717229 /* DoublePendulumSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8D56C2CBC2F6B00717229 /* DoublePendulumSimulatorUITests.swift */; };
 		0CE8D56F2CBC2F6B00717229 /* DoublePendulumSimulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8D56E2CBC2F6B00717229 /* DoublePendulumSimulatorUITestsLaunchTests.swift */; };
+		0CE8D57C2CBC2F9000717229 /* Pendulum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8D57B2CBC2F9000717229 /* Pendulum.swift */; };
+		0CE8D57E2CBC2FCB00717229 /* DoublePendulumSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8D57D2CBC2FCB00717229 /* DoublePendulumSystem.swift */; };
+		0CE8D5802CBC3F1000717229 /* PendulumTrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE8D57F2CBC3F1000717229 /* PendulumTrace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		0CE8D5682CBC2F6B00717229 /* DoublePendulumSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoublePendulumSimulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CE8D56C2CBC2F6B00717229 /* DoublePendulumSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublePendulumSimulatorUITests.swift; sourceTree = "<group>"; };
 		0CE8D56E2CBC2F6B00717229 /* DoublePendulumSimulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublePendulumSimulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0CE8D57B2CBC2F9000717229 /* Pendulum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pendulum.swift; sourceTree = "<group>"; };
+		0CE8D57D2CBC2FCB00717229 /* DoublePendulumSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublePendulumSystem.swift; sourceTree = "<group>"; };
+		0CE8D57F2CBC3F1000717229 /* PendulumTrace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumTrace.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				0CE8D5512CBC2F6800717229 /* DoublePendulumSimulatorApp.swift */,
 				0CE8D5532CBC2F6800717229 /* ContentView.swift */,
+				0CE8D57F2CBC3F1000717229 /* PendulumTrace.swift */,
+				0CE8D57D2CBC2FCB00717229 /* DoublePendulumSystem.swift */,
+				0CE8D57B2CBC2F9000717229 /* Pendulum.swift */,
 				0CE8D5552CBC2F6A00717229 /* Assets.xcassets */,
 				0CE8D5572CBC2F6A00717229 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CE8D5802CBC3F1000717229 /* PendulumTrace.swift in Sources */,
+				0CE8D57C2CBC2F9000717229 /* Pendulum.swift in Sources */,
 				0CE8D5542CBC2F6800717229 /* ContentView.swift in Sources */,
 				0CE8D5522CBC2F6800717229 /* DoublePendulumSimulatorApp.swift in Sources */,
+				0CE8D57E2CBC2FCB00717229 /* DoublePendulumSystem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
